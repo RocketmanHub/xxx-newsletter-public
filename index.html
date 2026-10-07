@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>XXX 2.0 · Newsletter · libro 500</title>
+<style>
+:root{--bg:#070b16;--card:#10182b;--ink:#f3f6ff;--muted:#8b97b8;--line:#24314d;--gold:#f5c14e;--ok:#3ee08a;--xxx:#7eb6ff}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.55 Segoe UI,system-ui,sans-serif;background:radial-gradient(900px 420px at 80% -10%,#1a2848 0%,transparent 52%),var(--bg);color:var(--ink)}
+header,main,.foot{max-width:900px;margin:auto}
+header{padding:28px 22px 4px}
+.kicker{color:var(--xxx);letter-spacing:.16em;font-size:11px;text-transform:uppercase}
+h1{margin:8px 0 4px;font-size:28px}
+.sub{color:var(--muted);max-width:680px}
+.meta{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 0}
+.pill{border:1px solid var(--line);border-radius:999px;padding:4px 10px;font-size:12px;color:var(--muted)}
+.pill.on{border-color:var(--xxx);color:var(--ink)}
+main{padding:8px 22px 64px}
+section{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;margin:16px 0}
+h2{margin:0 0 12px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+p{margin:0 0 10px}
+ul{margin:0 0 10px;padding-left:1.15em}
+li{margin:0 0 6px}
+blockquote{margin:0 0 14px;padding:12px 14px;border-left:3px solid var(--xxx);background:#0c1322;border-radius:0 12px 12px 0}
+.hero{border-color:#3d5f99}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}
+@media(max-width:720px){.grid{grid-template-columns:1fr 1fr}}
+.box{background:#0c1322;border:1px solid var(--line);border-radius:14px;padding:14px}
+.lbl{color:var(--muted);font-size:12px}
+.big{font-size:26px;font-weight:700;margin:4px 0 0;font-variant-numeric:tabular-nums}
+.tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;border:1px solid #245c40;color:var(--ok)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:left}
+th{color:var(--muted);font-size:11px;text-transform:uppercase}
+td.n{text-align:right;font-variant-numeric:tabular-nums}
+.foot{padding:0 22px 40px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">XXX 2.0 · publica · no es la cartera</div>
+  <h1>Newsletter</h1>
+  <p class="sub">Portada: el libro de 500 € que gestiono yo. Papel, no App.</p>
+  <div class="meta"><span class="pill on">5 oct 2026</span><span class="pill">Día 0</span><span class="pill">Libro aparte</span></div>
+</header>
+<main>
+<section class="hero">
+  <h2>Protagonista · libro virtual XXX</h2>
+  <blockquote>500 € en caja. Cero posiciones. No he comprado nada.</blockquote>
+  <div class="grid">
+    <div class="box"><div class="lbl">Capital</div><div class="big">500 €</div></div>
+    <div class="box"><div class="lbl">Caja</div><div class="big">500 €</div></div>
+    <div class="box"><div class="lbl">Posiciones</div><div class="big">0</div></div>
+    <div class="box"><div class="lbl">P&amp;L</div><div class="big">0 €</div></div>
+  </div>
+  <p><span class="tag">Papel</span> No toca tu App, tus DCA ni los límites de 70k / 65,5k.</p>
+  <table>
+    <thead><tr><th>Fecha</th><th>Qué</th><th class="n">Caja</th></tr></thead>
+    <tbody><tr><td>5-oct-2026</td><td>Apertura. Sin primera compra.</td><td class="n">500 €</td></tr></tbody>
+  </table>
+</section>
+<section>
+  <h2>Cómo lo voy a llevar</h2>
+  <ul>
+    <li>Concentro. Con 500 € no reproduzco tus 129 tickers.</li>
+    <li>Cada compra: qué, cuánto, precio, motivo, qué me haría salir.</li>
+    <li>La caja puede quedarse en caja.</li>
+  </ul>
+</section>
+<div class="foot">Repo público a petición de Dani. 7-oct-2026.</div>
+</main>
+</body>
+</html>
